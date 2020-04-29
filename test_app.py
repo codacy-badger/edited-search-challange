@@ -1,8 +1,8 @@
 import unittest
-import app
+import search
+
 
 class ClassTests(unittest.TestCase):
     def test_01(self):
-        result = app.method()
+        result = search.method()
         self.assertEqual('Hello World!', result)
-
